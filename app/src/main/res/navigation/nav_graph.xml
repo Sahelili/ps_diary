@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homefragment">
+
+    <fragment
+        android:id="@+id/homefragment"
+        android:name="com.example.diaryapp.ui.fragments.Homefragment"
+        android:label="fragment_homefragment"
+        tools:layout="@layout/fragment_homefragment" >
+        <action
+            android:id="@+id/action_homefragment_to_editfragment2"
+            app:destination="@id/editfragment2" />
+        <action
+            android:id="@+id/action_homefragment_to_createDiaryfragment2"
+            app:destination="@id/createDiaryfragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/createDiaryfragment2"
+        android:name="com.example.diaryapp.ui.fragments.CreateDiaryfragment"
+        android:label="fragment_create_diaryfragment"
+        tools:layout="@layout/fragment_create_diaryfragment" >
+        <action
+            android:id="@+id/action_createDiaryfragment2_to_homefragment"
+            app:destination="@id/homefragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editfragment2"
+        android:name="com.example.diaryapp.ui.fragments.Editfragment"
+        android:label="fragment_editfragment"
+        tools:layout="@layout/fragment_editfragment" >
+        <action
+            android:id="@+id/action_editfragment2_to_homefragment"
+            app:destination="@id/homefragment" />
+    </fragment>
+</navigation>
