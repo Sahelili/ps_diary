@@ -70,7 +70,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="5dp"
             android:layout_marginRight="15dp"
-            android:backgroundTint="@color/red"
+            android:backgroundTint="#DC4040"
             android:focusableInTouchMode="false"
             android:src="@drawable/delete"
             app:maxImageSize="30dp" />
@@ -81,7 +81,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="5dp"
             android:layout_marginRight="15dp"
-            android:backgroundTint="@color/red"
+            android:backgroundTint="#DC4040"
             android:focusableInTouchMode="false"
             android:src="@drawable/ic_baseline_done_24"
             app:maxImageSize="30dp" />
