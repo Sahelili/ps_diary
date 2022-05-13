@@ -81,7 +81,7 @@
             android:id="@+id/fontButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/image"
+            android:src="@drawable/ic_font_size"
             android:layout_marginLeft="6dp"
             android:layout_weight="1"/>
 
