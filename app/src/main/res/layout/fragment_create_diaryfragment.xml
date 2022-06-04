@@ -22,7 +22,10 @@
             android:hint="@string/app_name"
             android:padding="10dp"
             android:textColorHint="#000000"
-            android:textSize="30dp"
+            android:textSize="30dp">
+
+        </TextView>
+
 
         <EditText
             android:id="@+id/editTextDate"
@@ -30,11 +33,12 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="17dp"
             android:background="@drawable/edit_shape_diary"
+             android:textColorHint="@color/grey1"
             android:drawableStart="@drawable/calender"
-            android:ems="10"
             android:hint="Date"
             android:inputType="date"
             android:padding="10dp"
+            android:textColor="#6E1818"
             android:textSize="23dp" />
 
         <EditText
@@ -43,6 +47,7 @@
             android:layout_marginTop="8dp"
             android:background="@drawable/edit_shape_diary"
             android:hint="Title....."
+            android:textColorHint="@color/grey1"
             android:maxLines="1"
             android:textSize="26dp"
             android:padding="10dp"/>
@@ -54,6 +59,7 @@
             android:background="@drawable/edit_shape_diary"
             android:gravity="start"
             android:hint="So How was your day today....."
+            android:textColorHint="@color/grey1"
             android:inputType="textMultiLine"
             android:textSize="23dp"
             android:padding="10dp"/>
@@ -81,7 +87,7 @@
             android:id="@+id/fontButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_font_size"
+            android:src="@drawable/ic_font_style"
             android:layout_marginLeft="6dp"
             android:layout_weight="1"/>
 
@@ -93,21 +99,21 @@
             android:layout_weight="1"
             android:src="@drawable/image" />
             <ImageButton
-                android:id="@+id/imageButton"
+                android:id="@+id/colorButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_weight="1"
+                android:src="@drawable/ic_font_color" />
+            <ImageButton
+                android:id="@+id/imageButton1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="6dp"
                 android:layout_weight="1"
                 android:src="@drawable/image" />
             <ImageButton
-                android:id="@+id/imageButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="6dp"
-                android:layout_weight="1"
-                android:src="@drawable/image" />
-            <ImageButton
-                android:id="@+id/imageButton"
+                android:id="@+id/imageButton2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="6dp"

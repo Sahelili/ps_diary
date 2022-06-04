@@ -33,6 +33,7 @@
         android:drawableStart="@drawable/calender"
         android:ems="10"
         android:hint="Date"
+            android:textColorHint="@color/grey1"
         android:inputType="date"
         android:padding="10dp"
         android:textSize="23dp" />
@@ -43,6 +44,7 @@
         android:layout_marginTop="8dp"
         android:background="@drawable/edit_shape_diary"
         android:hint="Title....."
+        android:textColorHint="@color/grey1"
         android:maxLines="1"
         android:textSize="26dp"
         android:padding="10dp"/>
@@ -54,6 +56,7 @@
         android:background="@drawable/edit_shape_diary"
         android:gravity="start"
         android:hint="So How was your day today....."
+        android:textColorHint="@color/grey1"
         android:inputType="textMultiLine"
         android:textSize="23dp"
         android:padding="10dp"/>
@@ -103,7 +106,7 @@
                 android:layout_weight="1"
                 android:src="@drawable/ic_font_style" />
             <ImageButton
-                android:id="@+id/fontButton"
+                android:id="@+id/imageBUtton1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#807D7D"
@@ -112,7 +115,7 @@
                 android:layout_weight="1"/>
 
             <ImageButton
-                android:id="@+id/imageButton"
+                android:id="@+id/colorButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="6dp"
@@ -120,7 +123,7 @@
                 android:layout_weight="1"
                 android:src="@drawable/ic_font_color" />
             <ImageButton
-                android:id="@+id/imageButton"
+                android:id="@+id/imageButton2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="6dp"
@@ -136,7 +139,7 @@
                 android:layout_weight="1"
                 android:src="@drawable/ic_image" />
             <ImageButton
-                android:id="@+id/imageButton"
+                android:id="@+id/imageButton4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="6dp"
