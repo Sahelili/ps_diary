@@ -14,17 +14,8 @@
             android:id="@+id/action_homefragment_to_editfragment2"
             app:destination="@id/editfragment2" />
         <action
-            android:id="@+id/action_homefragment_to_createDiaryfragment2"
-            app:destination="@id/createDiaryfragment2" />
-    </fragment>
-    <fragment
-        android:id="@+id/createDiaryfragment2"
-        android:name="com.example.diaryapp.ui.fragments.CreateDiaryfragment"
-        android:label="fragment_create_diaryfragment"
-        tools:layout="@layout/fragment_create_diaryfragment" >
-        <action
-            android:id="@+id/action_createDiaryfragment2_to_homefragment"
-            app:destination="@id/homefragment" />
+            android:id="@+id/action_homefragment_to_createNotesFragment"
+            app:destination="@id/createNotesFragment" />
     </fragment>
     <fragment
         android:id="@+id/editfragment2"
@@ -33,6 +24,15 @@
         tools:layout="@layout/fragment_editfragment" >
         <action
             android:id="@+id/action_editfragment2_to_homefragment"
+            app:destination="@id/homefragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/createNotesFragment"
+        android:name="com.example.diaryapp.ui.fragments.CreateNotesFragment"
+        android:label="fragment_create_notes"
+        tools:layout="@layout/fragment_create_notes" >
+        <action
+            android:id="@+id/action_createNotesFragment_to_homefragment"
             app:destination="@id/homefragment" />
     </fragment>
 </navigation>

@@ -21,13 +21,19 @@
 
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
-           android:id="@+id/addNotes"
+           android:id="@+id/btnAddNotes"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="26dp"
             android:backgroundTint="@color/red"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="84dp"
+            android:layout_height="207dp"
+            tools:layout_editor_absoluteX="7dp"
+            tools:layout_editor_absoluteY="16dp" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
