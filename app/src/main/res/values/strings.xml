@@ -2,9 +2,11 @@
     <string name="app_name">Personal Diary</string>
     <string name="heading">hello</string>
     <string name="body">uhu</string>
-    <string name="date">DATE...</string>
+    <string name="date">DATE…</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="are_you_sure_you_want_to_delete_n_this_whole_entry">Are You Sure You Want To Delete \n This Whole Entry?</string>
+    <string name="yes">Yes</string>
 
 
 </resources>

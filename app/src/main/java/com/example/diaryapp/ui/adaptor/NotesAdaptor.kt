@@ -2,11 +2,9 @@ package com.example.diaryapp.ui.adaptor
 
 import android.content.Context
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.diaryapp.databinding.ItemDiaryBinding
-import kotlinx.coroutines.NonDisposableHandle.parent
 import roommvvm.model.Notes
 
 class NotesAdaptor(val requireContext: Context,val notesList: List<Notes>) : RecyclerView.Adapter<NotesAdaptor.notesViewHolder>(){
