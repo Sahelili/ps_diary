@@ -7,7 +7,7 @@ import roommvvm.model.Notes
 @Dao
 interface NotesDao {
     @Query("SELECT * FROM Notes")
-    fun getnotes ():LiveData<List<Notes>>
+    fun getNotes ():LiveData<List<Notes>>
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     fun insertNotes(notes: Notes)

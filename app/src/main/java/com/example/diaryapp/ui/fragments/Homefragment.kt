@@ -31,7 +31,7 @@ class HomeFragment : Fragment() {
         })
 
         binding.btnAddNotes.setOnClickListener {
-            Navigation.findNavController(it).navigate(R.id.action_homefragment_to_createNotesFragment)
+            Navigation.findNavController(it).navigate(R.id.action_homefragment_to_createNotesfragment)
         }
 
         return binding.root

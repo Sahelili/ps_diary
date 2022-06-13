@@ -6,7 +6,7 @@ import androidx.room.Room
 import androidx.room.RoomDatabase
 import roommvvm.Dao.NotesDao
 import roommvvm.model.Notes
-import java.security.AccessControlContext
+
 @Database(entities = [Notes::class],version=1, exportSchema = false)
 abstract class NotesDatabase : RoomDatabase() {
     abstract fun myNotesDao(): NotesDao
@@ -23,7 +23,7 @@ abstract class NotesDatabase : RoomDatabase() {
                 databaseBuilder(context,NotesDatabase::class.java,
                     "Notes").allowMainThreadQueries().build()
                 INSTANCE= roomDatabaseInstance
-                return return roomDatabaseInstance
+                 return roomDatabaseInstance
             }
         }
     }
