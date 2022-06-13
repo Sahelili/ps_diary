@@ -21,10 +21,13 @@
         android:id="@+id/editFragment2"
         android:name="com.example.diaryapp.ui.fragments.EditFragment"
         android:label="fragment_editFragment"
-        tools:layout="@layout/fragment_editfragment" >
+        tools:layout="@layout/fragment_editfragment">
         <action
             android:id="@+id/action_editfragment2_to_homefragment"
             app:destination="@id/homefragment" />
+        <argument
+            android:name="data"
+            app:argType="roommvvm.model.Notes" />
     </fragment>
     <fragment
         android:id="@+id/createNotesFragment"
