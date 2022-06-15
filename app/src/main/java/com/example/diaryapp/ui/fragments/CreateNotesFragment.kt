@@ -1,6 +1,5 @@
 package com.example.diaryapp.ui.fragments
 
-//import android.content.Intent
 import android.os.Bundle
 
 import androidx.fragment.app.Fragment
@@ -31,21 +30,23 @@ class CreateNotesFragment : Fragment() {
             createNotes(it)
         }
 
-//        binding.colorButton.setOnClickListener {
-//
-//        }
-//        binding.fontButton.setOnClickListener {
-//
-//        }
-//        binding.imageButton.setOnClickListener {
-//            val intent= Intent("bott")
-//        }
-//        binding.imageButton1.setOnClickListener {
-//
-//        }
-//        binding.imageButton2.setOnClickListener {
-//
-//        }
+ //       binding.colorButton.setOnClickListener {
+
+ //       }
+
+   //      }
+   //    binding.fontButton.setOnClickListener {"
+
+   //    }
+ //       binding.imageButton.setOnClickListener {
+
+  //     }
+ //   binding.imageButton1.setOnClickListener {
+
+ //      }
+ //      binding.imageButton2.setOnClickListener {
+
+ //      }
 
         return binding.root
     }

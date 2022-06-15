@@ -9,8 +9,10 @@
         <entry key="..\:/Users/SAHELI BANERJEE/AndroidStudioProjects/DiaryApp2/app/src/main/res/drawable/edit_shape.xml" value="0.2555" />
         <entry key="..\:/Users/SAHELI BANERJEE/AndroidStudioProjects/DiaryApp2/app/src/main/res/drawable/edit_shape_button.xml" value="0.2555" />
         <entry key="..\:/Users/SAHELI BANERJEE/AndroidStudioProjects/DiaryApp2/app/src/main/res/drawable/edit_shape_diary.xml" value="0.2555" />
+        <entry key="..\:/Users/SAHELI BANERJEE/AndroidStudioProjects/DiaryApp2/app/src/main/res/drawable/font.xml" value="0.243" />
         <entry key="..\:/Users/SAHELI BANERJEE/AndroidStudioProjects/DiaryApp2/app/src/main/res/drawable/gradient_save_button.xml" value="0.2555" />
         <entry key="..\:/Users/SAHELI BANERJEE/AndroidStudioProjects/DiaryApp2/app/src/main/res/drawable/ic_back.xml" value="0.2555" />
+        <entry key="..\:/Users/SAHELI BANERJEE/AndroidStudioProjects/DiaryApp2/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.244" />
         <entry key="..\:/Users/SAHELI BANERJEE/AndroidStudioProjects/DiaryApp2/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.2555" />
         <entry key="..\:/Users/SAHELI BANERJEE/AndroidStudioProjects/DiaryApp2/app/src/main/res/drawable/ic_baseline_done_24.xml" value="0.2555" />
         <entry key="..\:/Users/SAHELI BANERJEE/AndroidStudioProjects/DiaryApp2/app/src/main/res/drawable/ic_font_color.xml" value="0.2555" />
@@ -24,10 +26,13 @@
         <entry key="..\:/Users/SAHELI BANERJEE/AndroidStudioProjects/DiaryApp2/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/SAHELI BANERJEE/AndroidStudioProjects/DiaryApp2/app/src/main/res/layout/dialogue.xml" value="0.2368659420289855" />
         <entry key="..\:/Users/SAHELI BANERJEE/AndroidStudioProjects/DiaryApp2/app/src/main/res/layout/fragment_create_diaryfragment.xml" value="0.2368659420289855" />
+        <entry key="..\:/Users/SAHELI BANERJEE/AndroidStudioProjects/DiaryApp2/app/src/main/res/layout/fragment_create_notes.xml" value="0.23802083333333332" />
         <entry key="..\:/Users/SAHELI BANERJEE/AndroidStudioProjects/DiaryApp2/app/src/main/res/layout/fragment_editfragment.xml" value="0.2368659420289855" />
         <entry key="..\:/Users/SAHELI BANERJEE/AndroidStudioProjects/DiaryApp2/app/src/main/res/layout/fragment_homefragment.xml" value="0.2368659420289855" />
         <entry key="..\:/Users/SAHELI BANERJEE/AndroidStudioProjects/DiaryApp2/app/src/main/res/layout/item_diary.xml" value="0.2368659420289855" />
         <entry key="..\:/Users/SAHELI BANERJEE/AndroidStudioProjects/DiaryApp2/app/src/main/res/menu/add_note_menu.xml" value="0.25" />
+        <entry key="..\:/Users/SAHELI BANERJEE/AndroidStudioProjects/DiaryApp2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.244" />
+        <entry key="..\:/Users/SAHELI BANERJEE/AndroidStudioProjects/DiaryApp2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.244" />
         <entry key="..\:/Users/user/AndroidStudioProjects/DiaryApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1945" />
         <entry key="..\:/Users/user/AndroidStudioProjects/DiaryApp/app/src/main/res/drawable/calender.xml" value="0.1945" />
         <entry key="..\:/Users/user/AndroidStudioProjects/DiaryApp/app/src/main/res/drawable/del_notes.xml" value="0.1945" />
