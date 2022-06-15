@@ -9,7 +9,13 @@ import com.example.diaryapp.databinding.ItemDiaryBinding
 import com.example.diaryapp.ui.fragments.HomeFragmentDirections
 import roommvvm.model.Notes
 
-class NotesAdaptor(val requireContext: Context,val notesList: List<Notes>) : RecyclerView.Adapter<NotesAdaptor.notesViewHolder>(){
+class NotesAdaptor(val requireContext: Context,var notesList: List<Notes>) :
+    RecyclerView.Adapter<NotesAdaptor.notesViewHolder>(){
+
+    fun filtering(newFilteredList: ArrayList<Notes>) {
+        notesList= newFilteredList
+        notifyDataSetChanged()
+    }
     class notesViewHolder(val binding: ItemDiaryBinding) : RecyclerView.ViewHolder(binding.root)
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): notesViewHolder {

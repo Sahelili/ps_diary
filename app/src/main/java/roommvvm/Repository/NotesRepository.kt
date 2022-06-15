@@ -8,7 +8,7 @@ import roommvvm.model.Notes
 class NotesRepository(val dao: NotesDao) {
 
     fun getAllNotes(): LiveData<List<Notes>>{
-        return dao.getNotes()
+        return dao.getnotes()
     }
     fun insertNotes(notes: Notes){
         dao.insertNotes(notes)
@@ -18,5 +18,5 @@ class NotesRepository(val dao: NotesDao) {
     }
     fun updateNotes(notes: Notes){
         dao.updateNotes(notes)
-    }
+   }
 }

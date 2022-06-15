@@ -33,6 +33,7 @@
             android:padding="10sp"/>
 
     <EditText
+        android:id="@+id/editTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -44,6 +45,7 @@
         android:padding="10dp"/>
 
     <EditText
+        android:id="@+id/editNotes"
         android:layout_width="match_parent"
         android:layout_height="300dp"
         android:layout_marginTop="8dp"
@@ -62,18 +64,19 @@
         android:orientation="horizontal"
         android:weightSum="2">
 
-        <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="5dp"
-            android:layout_marginRight="15dp"
-            android:backgroundTint="#DC4040"
-            android:focusableInTouchMode="false"
-            android:src="@drawable/delete"
-            app:maxImageSize="30dp" />
+<!--        <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="46dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:layout_marginRight="15dp"-->
+<!--            android:backgroundTint="#DC4040"-->
+<!--            android:focusableInTouchMode="false"-->
+<!--            android:src="@drawable/delete"-->
+<!--            app:maxImageSize="30dp" />-->
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btnEditSaveNotes"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
