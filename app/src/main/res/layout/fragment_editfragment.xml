@@ -18,25 +18,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/edit_shape"
-        android:hint="@string/app_name"
+        android:hint="change it,it's yours"
         android:padding="10dp"
         android:textColorHint="#000000"
-        android:textSize="30sp"
+        android:textSize="25sp"
         android:drawableLeft="@drawable/ic_baseline_arrow_back_24"
         android:drawablePadding="10dp"/>
-        <EditText
-        android:id="@+id/editTextDate"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="17dp"
-        android:background="@drawable/edit_shape_diary"
-        android:drawableStart="@drawable/calender"
-        android:ems="10"
-        android:hint="Date"
-            android:textColorHint="@color/grey1"
-        android:inputType="date"
-        android:padding="10dp"
-        android:textSize="23sp" />
+        <Button
+            android:id="@+id/dateButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_shape_diary"
+            android:drawableStart="@drawable/calender"
+            android:padding="10sp"/>
 
     <EditText
         android:layout_width="match_parent"
@@ -51,7 +45,7 @@
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="350dp"
+        android:layout_height="300dp"
         android:layout_marginTop="8dp"
         android:background="@drawable/edit_shape_diary"
         android:gravity="start"
