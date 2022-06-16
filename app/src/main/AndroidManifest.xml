@@ -4,19 +4,23 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:icon="@drawable/logo"
+        android:label="PS:Diary"
+        android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
-        android:theme="@style/Theme.DiaryApp"
-        android:label="PS:Diary">
+        android:theme="@style/Theme.DiaryApp">
+        <activity
+            android:name=".splashScreen"
+            android:exported="true" />
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
         <activity
             android:name=".MainActivity"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 
