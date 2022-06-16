@@ -15,6 +15,7 @@ import com.example.diaryapp.databinding.ItemDiaryBinding
 import com.google.android.material.bottomsheet.BottomSheetDialog
 import roommvvm.ViewModel.NotesViewModel
 import roommvvm.model.Notes
+import java.text.SimpleDateFormat
 import java.util.*
 import kotlin.math.log
 
@@ -46,7 +47,9 @@ class EditFragment : Fragment() {
 
 
         val dateNow = Calendar.getInstance().time
-        val data = Notes(oldnotes.data.id,title=title,notes=notes,date=dateNow.toString())
+        val formatter = SimpleDateFormat.getDateTimeInstance() //or use getDateInstance()
+        val date = formatter.format(dateNow)
+        val data = Notes(oldnotes.data.id,title=title,notes=notes,date=date.toString())
         viewModel.updateNotes(data)
 
         Toast.makeText(requireContext(),"your page updated successfully",

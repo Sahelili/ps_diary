@@ -13,6 +13,7 @@ import com.example.diaryapp.R
 import com.example.diaryapp.databinding.FragmentCreateNotesBinding
 import roommvvm.ViewModel.NotesViewModel
 import roommvvm.model.Notes
+import java.text.SimpleDateFormat
 
 import java.util.*
 
@@ -54,13 +55,10 @@ class CreateNotesFragment : Fragment() {
         val title=binding.editTitle.text.toString()
         val notes=binding.editNotes.text.toString()
 
-//        val date = Calendar.getInstance().time
-//        val formatter = SimpleDateFormat.getDateTimeInstance() //or use getDateInstance()
-//        val formattedDate = formatter.format(date)
-        //Log.e("@@@@@@@","createNotes :$formattedDate")
-
         val dateNow = Calendar.getInstance().time
-        val data = Notes(null,title=title,notes=notes,date=dateNow.toString())
+        val formatter = SimpleDateFormat.getDateTimeInstance() //or use getDateInstance()
+        val date = formatter.format(dateNow)
+        val data = Notes(null,title=title,notes=notes,date=date.toString())
         viewModel.addNotes(data)
 
         Toast.makeText(requireContext(),"your page added successfully",
