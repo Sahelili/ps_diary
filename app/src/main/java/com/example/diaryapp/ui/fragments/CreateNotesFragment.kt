@@ -17,7 +17,7 @@ import java.text.SimpleDateFormat
 
 import java.util.*
 
-class CreateNotesFragment : Fragment() {
+class createNote : Fragment() {
 
     lateinit var binding: FragmentCreateNotesBinding
     val viewModel: NotesViewModel by viewModels()

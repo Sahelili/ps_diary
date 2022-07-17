@@ -38,4 +38,15 @@
             android:id="@+id/action_createNotesfragment_to_Homefragment"
             app:destination="@id/homefragment" />
     </fragment>
+    <navigation android:id="@+id/navigation2"
+        app:startDestination="@id/login3">
+        <activity
+            android:id="@+id/login3"
+            android:name="com.example.diaryapp.login"
+            android:label="activity_login"
+            tools:layout="@layout/activity_login" />
+        <action
+            android:id="@+id/action_global_homefragment2"
+            app:destination="@id/homefragment" />
+    </navigation>
 </navigation>

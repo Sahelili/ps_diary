@@ -9,6 +9,7 @@
 
     <ImageView
         android:id="@+id/imageView"
+android:contentDescription="@string/splash_logo"
         android:layout_width="180sp"
         android:layout_height="180sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -17,7 +18,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.189"
-        app:srcCompat="@drawable/welcomelogo" />
+        app:srcCompat="@drawable/logo" />
 
 
     <TextView
@@ -27,7 +28,7 @@
         android:layout_marginTop="44dp"
         android:gravity="center"
         android:paddingTop="2sp"
-        android:text="PS:DIARY"
+        android:text="@string/ps_diary"
         android:textColor="#E34C68"
         android:textSize="32sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -41,7 +42,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:gravity="center"
-        android:text="By Pawan Kumar and Saheli Banerjee"
+        android:text="@string/developers_name"
         android:textColor="#E34C68"
         android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
