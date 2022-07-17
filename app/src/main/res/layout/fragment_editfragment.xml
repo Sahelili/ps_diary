@@ -18,7 +18,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/edit_shape"
-        android:hint="change it,it's yours"
+        android:hint="Edit Your Story"
         android:padding="10dp"
         android:textColorHint="#000000"
         android:textSize="25sp"
