@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
-import kotlinx.coroutines.delay
 
 class splashScreen : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -14,7 +13,7 @@ class splashScreen : AppCompatActivity() {
         supportActionBar?.hide()
 
         Handler(Looper.getMainLooper()).postDelayed(Runnable {
-            startActivity(Intent(this,MainActivity::class.java))
+            startActivity(Intent(this, Login::class.java))
         },2000)
     }
 }
