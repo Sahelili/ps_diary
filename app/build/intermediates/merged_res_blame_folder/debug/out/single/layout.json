@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-mergeDebugResources-52:\\layout\\fragment_editfragment.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-main-55:\\layout\\fragment_editfragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-mergeDebugResources-52:\\layout\\fragment_create_notes.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-main-55:\\layout\\fragment_create_notes.xml"
+    },
+    {
+        "merged": "com.example.diaryapp-mergeDebugResources-52:/layout/fragment_editfragment.xml",
+        "source": "com.example.diaryapp-main-55:/layout/fragment_editfragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-mergeDebugResources-52:\\layout\\fragment_homefragment.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-main-55:\\layout\\fragment_homefragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-mergeDebugResources-52:\\layout\\activity_splash_screen.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-main-55:\\layout\\activity_splash_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-mergeDebugResources-52:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-main-55:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-mergeDebugResources-52:\\layout\\dialogue.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-main-55:\\layout\\dialogue.xml"
+    },
+    {
+        "merged": "com.example.diaryapp-mergeDebugResources-52:/layout/fragment_create_notes.xml",
+        "source": "com.example.diaryapp-main-55:/layout/fragment_create_notes.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-mergeDebugResources-52:\\layout\\item_diary.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-main-55:\\layout\\item_diary.xml"
+    }
+]

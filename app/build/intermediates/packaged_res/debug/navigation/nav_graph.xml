@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homefragment">
+
+    <fragment
+        android:id="@+id/homefragment"
+        android:name="com.example.diaryapp.ui.fragments.HomeFragment"
+        android:label="fragment_homefragment"
+        tools:layout="@layout/fragment_homefragment" >
+        <action
+            android:id="@+id/action_homefragment_to_editfragment2"
+            app:destination="@id/editFragment2" />
+        <action
+            android:id="@+id/action_homefragment_to_createNotesfragment"
+            app:destination="@id/createNotesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editFragment2"
+        android:name="com.example.diaryapp.ui.fragments.EditFragment"
+        android:label="fragment_editFragment"
+        tools:layout="@layout/fragment_editfragment">
+        <action
+            android:id="@+id/action_editfragment2_to_homefragment"
+            app:destination="@id/homefragment" />
+        <argument
+            android:name="data"
+            app:argType="roommvvm.model.Notes" />
+    </fragment>
+    <fragment
+        android:id="@+id/createNotesFragment"
+        android:name="com.example.diaryapp.ui.fragments.CreateNotesFragment"
+        android:label="fragment_create_notes"
+        tools:layout="@layout/fragment_create_notes" >
+        <action
+            android:id="@+id/action_createNotesfragment_to_Homefragment"
+            app:destination="@id/homefragment" />
+    </fragment>
+</navigation>

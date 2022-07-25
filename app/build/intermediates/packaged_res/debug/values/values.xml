@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="black">#000000</color>
+    <color name="blue">#89CFF0</color>
+    <color name="green">#99FF99</color>
+    <color name="grey">#7A7878</color>
+    <color name="grey1">#434040</color>
+    <color name="grey2">#3C3C3C</color>
+    <color name="mustard">#ffdb58</color>
+    <color name="purple">#FF6200EE</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="red">#D33939</color>
+    <color name="red1">#D64B4B</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#ffffff</color>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="add">add</string>
+    <string name="app_name">Personal Diary</string>
+    <string name="are_you_sure_you_want_to_delete_n_this_whole_entry">Are You Sure You Want To Delete \n This Whole Entry?</string>
+    <string name="body">uhu</string>
+    <string name="date">DATE…</string>
+    <string name="delete">Delete</string>
+    <string name="developers_name">By Pawan Kumar and Saheli Banerjee</string>
+    <string name="heading">hello</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="ps_diary">PS:DIARY</string>
+    <string name="splash_logo">splash logo</string>
+    <string name="title_activity_login">login</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="yes">Yes</string>
+    <style name="ProgressBar">
+        <item name="colorSecondary">@color/red</item>
+    </style>
+    <style name="Theme.DiaryApp" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">#09B0FC</item>
+        <item name="colorPrimaryVariant">#00BCD4</item>
+        <item name="colorOnPrimary">@color/design_default_color_primary_dark </item>
+        
+        <item name="colorSecondary">@color/teal_700</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        
+    </style>
+</resources>

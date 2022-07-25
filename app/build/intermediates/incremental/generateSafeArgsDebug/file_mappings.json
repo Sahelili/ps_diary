@@ -1,0 +1,1 @@
+[{"navFile":"src\\main\\res\\navigation\\nav_graph.xml","javaFiles":["com.example.diaryapp.ui.fragments.HomeFragmentDirections","com.example.diaryapp.ui.fragments.EditFragmentDirections","com.example.diaryapp.ui.fragments.EditFragmentArgs","com.example.diaryapp.ui.fragments.CreateNotesFragmentDirections"]}]
