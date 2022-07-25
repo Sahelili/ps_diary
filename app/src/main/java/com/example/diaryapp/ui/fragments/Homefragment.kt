@@ -10,6 +10,8 @@ import android.view.ViewGroup
 import androidx.fragment.app.viewModels
 import androidx.navigation.Navigation
 import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
+
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import com.example.diaryapp.R
 import com.example.diaryapp.databinding.FragmentHomefragmentBinding
@@ -22,12 +24,13 @@ class HomeFragment : Fragment() {
     lateinit var binding: FragmentHomefragmentBinding
     val viewModel: NotesViewModel by viewModels()
     var oldMyNotes= arrayListOf<Notes>()
-    lateinit var adaptor: NotesAdaptor
+     lateinit var adapter: NotesAdaptor
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
+
         binding= FragmentHomefragmentBinding.inflate(layoutInflater,container,false)
         setHasOptionsMenu(true)
 
@@ -37,9 +40,9 @@ class HomeFragment : Fragment() {
 
           //get all notes
         viewModel.getNOtes().observe(viewLifecycleOwner,{ notesList->
-            oldMyNotes = notesList as ArrayList<Notes> /* = java.util.ArrayList<roommvvm.model.Notes> */
-            adaptor= NotesAdaptor(requireContext(),notesList)
-            binding.rcvAllNotes.adapter=adaptor
+            oldMyNotes = notesList as ArrayList<Notes>
+            adapter=NotesAdaptor(requireContext(),notesList)
+            binding.rcvAllNotes.adapter= adapter
         })
 
         binding.btnAddNotes.setOnClickListener {
@@ -75,7 +78,7 @@ class HomeFragment : Fragment() {
                 newFilteredList.add(i)
             }
         }
-        adaptor.filtering(newFilteredList)
+        adapter.filtering(newFilteredList)
     }
 
 }

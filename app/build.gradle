@@ -2,7 +2,7 @@ plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
     id 'kotlin-kapt'
-    id 'androidx.navigation.safeargs.kotlin'
+    id("androidx.navigation.safeargs.kotlin")
 }
 apply plugin: "androidx.navigation.safeargs.kotlin"
 
@@ -96,8 +96,8 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     androidTestImplementation "androidx.test.ext:junit:$rootProject.androidxJunitVersion"
-    implementation platform('com.google.firebase:firebase-bom:30.2.0')
-    implementation 'com.google.firebase:firebase-analytics-ktx'
+   // implementation platform('com.google.firebase:firebase-bom:30.2.0')
+   // implementation 'com.google.firebase:firebase-analytics-ktx'
 }
-apply plugin: 'com.android.application'
-apply plugin: 'com.google.gms.google-services'
+//apply plugin: 'com.android.application'
+//apply plugin: 'com.google.gms.google-services'

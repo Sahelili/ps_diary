@@ -1,7 +1,7 @@
 package com.example.diaryapp.ui.fragments
 
 import android.os.Bundle
-import android.util.Log
+
 import android.view.*
 import android.widget.TextView
 import androidx.fragment.app.Fragment
@@ -11,13 +11,13 @@ import androidx.navigation.Navigation
 import androidx.navigation.fragment.navArgs
 import com.example.diaryapp.R
 import com.example.diaryapp.databinding.FragmentEditfragmentBinding
-import com.example.diaryapp.databinding.ItemDiaryBinding
+
 import com.google.android.material.bottomsheet.BottomSheetDialog
 import roommvvm.ViewModel.NotesViewModel
 import roommvvm.model.Notes
 import java.text.SimpleDateFormat
 import java.util.*
-import kotlin.math.log
+
 
 class EditFragment : Fragment() {
     val oldnotes by navArgs<EditFragmentArgs>()
