@@ -19,6 +19,7 @@
         android:label="PS:Diary"
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/Theme.DiaryApp" >
         <activity
             android:name="com.example.diaryapp.splashScreen"

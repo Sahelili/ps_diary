@@ -10,12 +10,10 @@ import android.view.ViewGroup
 import androidx.fragment.app.viewModels
 import androidx.navigation.Navigation
 import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
-
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import com.example.diaryapp.R
 import com.example.diaryapp.databinding.FragmentHomefragmentBinding
-import com.example.diaryapp.ui.adaptor.NotesAdaptor
+import com.example.diaryapp.ui.adapter.NotesAdapter
 import roommvvm.ViewModel.NotesViewModel
 import roommvvm.model.Notes
 
@@ -24,7 +22,7 @@ class HomeFragment : Fragment() {
     lateinit var binding: FragmentHomefragmentBinding
     val viewModel: NotesViewModel by viewModels()
     var oldMyNotes= arrayListOf<Notes>()
-     lateinit var adapter: NotesAdaptor
+     lateinit var adapter: NotesAdapter
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -34,18 +32,18 @@ class HomeFragment : Fragment() {
         binding= FragmentHomefragmentBinding.inflate(layoutInflater,container,false)
         setHasOptionsMenu(true)
 
-        val staggeredGridLayoutManager=
-            StaggeredGridLayoutManager(2,LinearLayoutManager.VERTICAL)
-        binding.rcvAllNotes.layoutManager=staggeredGridLayoutManager
+             val staggeredGridLayoutManager=
+            StaggeredGridLayoutManager(2,StaggeredGridLayoutManager.VERTICAL)
+             binding.rcvAllNotes.layoutManager=staggeredGridLayoutManager
 
           //get all notes
         viewModel.getNOtes().observe(viewLifecycleOwner,{ notesList->
             oldMyNotes = notesList as ArrayList<Notes>
-            adapter=NotesAdaptor(requireContext(),notesList)
+            adapter=NotesAdapter(requireContext(),notesList)
             binding.rcvAllNotes.adapter= adapter
         })
 
-        binding.btnAddNotes.setOnClickListener {
+            binding.btnAddNotes.setOnClickListener {
             Navigation.findNavController(it).navigate(R.id.action_homefragment_to_createNotesfragment)
         }
 
@@ -74,7 +72,7 @@ class HomeFragment : Fragment() {
     private fun NotesFiltering(newText: String?) {
         val newFilteredList= arrayListOf<Notes>()
         for (i in oldMyNotes){
-            if (i.title!!.contains(newText!!)|| i.notes!!.contains(newText!!)){
+            if (i.title!!.contains(newText!!)|| i.notes!!.contains(newText)){
                 newFilteredList.add(i)
             }
         }

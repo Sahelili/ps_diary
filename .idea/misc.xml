@@ -42,9 +42,11 @@
         <entry key="..\:/Users/SAHELI BANERJEE/AndroidStudioProjects/DiaryApp2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.244" />
         <entry key="..\:/Users/SAHELI BANERJEE/AndroidStudioProjects/DiaryApp2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.244" />
         <entry key="..\:/Users/user/AndroidStudioProjects/DiaryApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1945" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/DiaryApp/app/src/main/res/drawable-xxxhdpi/new_user.xml" value="0.1945" />
         <entry key="..\:/Users/user/AndroidStudioProjects/DiaryApp/app/src/main/res/drawable/bold.xml" value="0.1945" />
         <entry key="..\:/Users/user/AndroidStudioProjects/DiaryApp/app/src/main/res/drawable/calender.xml" value="0.1945" />
         <entry key="..\:/Users/user/AndroidStudioProjects/DiaryApp/app/src/main/res/drawable/clickable_text.xml" value="0.1945" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/DiaryApp/app/src/main/res/drawable/colour.xml" value="0.1945" />
         <entry key="..\:/Users/user/AndroidStudioProjects/DiaryApp/app/src/main/res/drawable/del_notes.xml" value="0.1945" />
         <entry key="..\:/Users/user/AndroidStudioProjects/DiaryApp/app/src/main/res/drawable/delete.xml" value="0.1945" />
         <entry key="..\:/Users/user/AndroidStudioProjects/DiaryApp/app/src/main/res/drawable/edit_shape.xml" value="0.1" />
@@ -52,6 +54,7 @@
         <entry key="..\:/Users/user/AndroidStudioProjects/DiaryApp/app/src/main/res/drawable/edit_shape_diary.xml" value="0.1945" />
         <entry key="..\:/Users/user/AndroidStudioProjects/DiaryApp/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.1945" />
         <entry key="..\:/Users/user/AndroidStudioProjects/DiaryApp/app/src/main/res/drawable/ic_baseline_done_24.xml" value="0.1945" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/DiaryApp/app/src/main/res/drawable/ic_font_color.xml" value="0.1945" />
         <entry key="..\:/Users/user/AndroidStudioProjects/DiaryApp/app/src/main/res/drawable/ic_font_style.xml" value="0.1945" />
         <entry key="..\:/Users/user/AndroidStudioProjects/DiaryApp/app/src/main/res/drawable/ic_image.xml" value="0.1945" />
         <entry key="..\:/Users/user/AndroidStudioProjects/DiaryApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1945" />
@@ -75,6 +78,9 @@
         <entry key="..\:/Users/user/AndroidStudioProjects/DiaryApp/app/src/main/res/menu/search_menu.xml" value="0.18645833333333334" />
         <entry key="..\:/Users/user/AndroidStudioProjects/DiaryApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1945" />
         <entry key="..\:/Users/user/AndroidStudioProjects/DiaryApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.154" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ps-diary/app/src/main/res/layout/fragment_create_notes.xml" value="0.18070652173913043" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ps-diary/app/src/main/res/layout/fragment_editfragment.xml" value="0.18070652173913043" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ps-diary/app/src/main/res/layout/item_diary.xml" value="0.18070652173913043" />
       </map>
     </option>
   </component>

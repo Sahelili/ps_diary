@@ -2553,7 +2553,6 @@ drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
 drawable del_notes
-drawable delete
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
@@ -2637,9 +2636,6 @@ drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable welcomelogo
 drawable yes_button
-font bold
-font font
-font italic
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -2742,6 +2738,7 @@ id beginOnFirstDraw
 id beginning
 id bestChoice
 id blocking
+id bold
 id bottom
 id bounce
 id bounceBoth
@@ -2899,6 +2896,7 @@ id imageBUtton1
 id imageButton
 id imageButton4
 id imageView
+id imgNote
 id immediateStop
 id included
 id info
@@ -2918,6 +2916,7 @@ id line1
 id line3
 id linear
 id linearLayout
+id link
 id listMode
 id list_item
 id locale
@@ -3067,6 +3066,7 @@ id showCustom
 id showHome
 id showTitle
 id sin
+id size
 id skipCollapsed
 id skipped
 id slide

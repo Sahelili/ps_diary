@@ -4,7 +4,7 @@ package com.example.diaryapp.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.FrameLayout;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -18,7 +18,7 @@ import java.lang.String;
 
 public final class ItemDiaryBinding implements ViewBinding {
   @NonNull
-  private final FrameLayout rootView;
+  private final LinearLayout rootView;
 
   @NonNull
   public final TextView date;
@@ -32,7 +32,7 @@ public final class ItemDiaryBinding implements ViewBinding {
   @NonNull
   public final TextView titleNotes;
 
-  private ItemDiaryBinding(@NonNull FrameLayout rootView, @NonNull TextView date,
+  private ItemDiaryBinding(@NonNull LinearLayout rootView, @NonNull TextView date,
       @NonNull TextView editNotes, @NonNull CardView savednotesView, @NonNull TextView titleNotes) {
     this.rootView = rootView;
     this.date = date;
@@ -43,7 +43,7 @@ public final class ItemDiaryBinding implements ViewBinding {
 
   @Override
   @NonNull
-  public FrameLayout getRoot() {
+  public LinearLayout getRoot() {
     return rootView;
   }
 
@@ -92,7 +92,7 @@ public final class ItemDiaryBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ItemDiaryBinding((FrameLayout) rootView, date, editNotes, savednotesView,
+      return new ItemDiaryBinding((LinearLayout) rootView, date, editNotes, savednotesView,
           titleNotes);
     }
     String missingId = rootView.getResources().getResourceName(id);

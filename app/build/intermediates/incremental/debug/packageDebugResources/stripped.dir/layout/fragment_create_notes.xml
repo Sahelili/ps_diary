@@ -63,6 +63,15 @@
             app:fabSize="auto"
             app:maxImageSize="35dp" />
 
+        <ImageView
+            android:id="@+id/imgNote"
+            android:layout_width="match_parent"
+            android:layout_height="300sp"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginEnd="10sp"
+            android:visibility="gone" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -71,7 +80,7 @@
             android:weightSum="5">
 
             <ImageButton
-                android:id="@+id/fontButton"
+                android:id="@+id/size"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="6dp"
@@ -79,7 +88,7 @@
                 android:layout_weight="1"
                 android:src="@drawable/size" />
             <ImageButton
-                android:id="@+id/imageBUtton1"
+                android:id="@+id/bold"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#71DEEC"
@@ -105,7 +114,7 @@
                 android:layout_weight="1"
                 android:src="@drawable/ic_image" />
             <ImageButton
-                android:id="@+id/imageButton4"
+                android:id="@+id/link"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="6dp"

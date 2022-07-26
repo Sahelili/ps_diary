@@ -1,5 +1,6 @@
 package roommvvm.model
 
+//import android.media.Image
 import android.os.Parcel
 import android.os.Parcelable
 import androidx.room.Entity
@@ -13,12 +14,14 @@ class Notes (
     //var subtitle :String,
     var notes :String?,
     var date :String?,
+//    var img : String?,
     //var priority :String
         ) : Parcelable {
     constructor(parcel: Parcel) : this(
         parcel.readValue(Int::class.java.classLoader) as? Int,
         parcel.readString(),
         parcel.readString(),
+      //  parcel.readString(),
         parcel.readString()
     ) {
     }
@@ -28,6 +31,7 @@ class Notes (
         parcel.writeString(title)
         parcel.writeString(notes)
         parcel.writeString(date)
+        //parcel.writeString(img)
     }
 
     override fun describeContents(): Int {

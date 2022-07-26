@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.FrameLayout;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -51,6 +52,9 @@ public final class FragmentEditfragmentBinding implements ViewBinding {
   public final ImageButton imageButton4;
 
   @NonNull
+  public final ImageView imgNote;
+
+  @NonNull
   public final LinearLayout linearLayout;
 
   private FragmentEditfragmentBinding(@NonNull FrameLayout rootView,
@@ -58,7 +62,7 @@ public final class FragmentEditfragmentBinding implements ViewBinding {
       @NonNull TextView dateButton, @NonNull EditText editNotes, @NonNull EditText editTitle,
       @NonNull ImageButton fontButton, @NonNull ImageButton imageBUtton1,
       @NonNull ImageButton imageButton, @NonNull ImageButton imageButton4,
-      @NonNull LinearLayout linearLayout) {
+      @NonNull ImageView imgNote, @NonNull LinearLayout linearLayout) {
     this.rootView = rootView;
     this.btnEditSaveNotes = btnEditSaveNotes;
     this.colorButton = colorButton;
@@ -69,6 +73,7 @@ public final class FragmentEditfragmentBinding implements ViewBinding {
     this.imageBUtton1 = imageBUtton1;
     this.imageButton = imageButton;
     this.imageButton4 = imageButton4;
+    this.imgNote = imgNote;
     this.linearLayout = linearLayout;
   }
 
@@ -153,6 +158,12 @@ public final class FragmentEditfragmentBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.imgNote;
+      ImageView imgNote = ViewBindings.findChildViewById(rootView, id);
+      if (imgNote == null) {
+        break missingId;
+      }
+
       id = R.id.linearLayout;
       LinearLayout linearLayout = ViewBindings.findChildViewById(rootView, id);
       if (linearLayout == null) {
@@ -161,7 +172,7 @@ public final class FragmentEditfragmentBinding implements ViewBinding {
 
       return new FragmentEditfragmentBinding((FrameLayout) rootView, btnEditSaveNotes, colorButton,
           dateButton, editNotes, editTitle, fontButton, imageBUtton1, imageButton, imageButton4,
-          linearLayout);
+          imgNote, linearLayout);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
