@@ -78,7 +78,14 @@
         <entry key="..\:/Users/user/AndroidStudioProjects/DiaryApp/app/src/main/res/menu/search_menu.xml" value="0.18645833333333334" />
         <entry key="..\:/Users/user/AndroidStudioProjects/DiaryApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1945" />
         <entry key="..\:/Users/user/AndroidStudioProjects/DiaryApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.154" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/ps-diary/app/src/main/res/layout/fragment_create_notes.xml" value="0.18070652173913043" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ps-diary/app/src/main/res/drawable/bold.xml" value="0.1945" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ps-diary/app/src/main/res/drawable/colour.xml" value="0.1945" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ps-diary/app/src/main/res/drawable/ic_image.xml" value="0.1945" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ps-diary/app/src/main/res/drawable/italics.xml" value="0.1945" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ps-diary/app/src/main/res/drawable/link.xml" value="0.1945" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ps-diary/app/src/main/res/layout/background_colour.xml" value="0.18070652173913043" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ps-diary/app/src/main/res/layout/dialogue.xml" value="0.18070652173913043" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ps-diary/app/src/main/res/layout/fragment_create_notes.xml" value="0.1" />
         <entry key="..\:/Users/user/AndroidStudioProjects/ps-diary/app/src/main/res/layout/fragment_editfragment.xml" value="0.18070652173913043" />
         <entry key="..\:/Users/user/AndroidStudioProjects/ps-diary/app/src/main/res/layout/item_diary.xml" value="0.18070652173913043" />
       </map>

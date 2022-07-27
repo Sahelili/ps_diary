@@ -1,7 +1,14 @@
 package com.example.diaryapp.ui.fragments
 
+import android.graphics.Typeface
 import android.media.Image
 import android.os.Bundle
+import android.text.Spannable
+import android.text.SpannableString
+import android.text.SpannableStringBuilder
+import android.text.style.RelativeSizeSpan
+import android.text.style.StyleSpan
+import android.text.style.TypefaceSpan
 
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -13,6 +20,8 @@ import androidx.fragment.app.viewModels
 import androidx.navigation.Navigation
 import com.example.diaryapp.R
 import com.example.diaryapp.databinding.FragmentCreateNotesBinding
+import com.google.android.material.bottomsheet.BottomSheetDialog
+import com.google.android.material.floatingactionbutton.FloatingActionButton
 import roommvvm.ViewModel.NotesViewModel
 import roommvvm.model.Notes
 import java.text.SimpleDateFormat
@@ -32,6 +41,42 @@ class CreateNotesFragment : Fragment() {
         binding.BtnSaveNotes.setOnClickListener {
             createNotes(it)
         }
+        binding.colorButton.setOnClickListener {
+            layoutInflater.inflate(R.layout.background_colour,null)
+            val bottomSheet= BottomSheetDialog(requireContext())
+            bottomSheet.setContentView(R.layout.background_colour)
+            val purple=bottomSheet.findViewById<FloatingActionButton>(R.id.purple)
+            purple?.setOnClickListener {
+                binding.editNotes.setBackgroundResource(R.color.purple)
+                binding.editTitle.setBackgroundResource(R.color.purple)
+                binding.dateButton.setBackgroundResource(R.color.purple)
+                bottomSheet.dismiss()
+            }
+            bottomSheet.show()
+        }
+        binding.bold.setOnClickListener {
+            val SpannableString= SpannableStringBuilder(binding.editNotes.text)
+            val SpannableString2= SpannableStringBuilder(binding.editTitle.text)
+            val styleSpan= StyleSpan(Typeface.BOLD)
+            SpannableString.setSpan(styleSpan,binding.editNotes.selectionStart,
+                binding.editNotes.selectionEnd,0)
+            SpannableString2.setSpan(styleSpan,binding.editTitle.selectionStart,
+                binding.editTitle.selectionEnd,0)
+            binding.editNotes.text=SpannableString
+            binding.editTitle.text=SpannableString2
+        }
+        binding.italic.setOnClickListener {
+            val SpannableString= SpannableStringBuilder(binding.editNotes.text)
+            val SpannableString2= SpannableStringBuilder(binding.editTitle.text)
+            val styleSpan= StyleSpan(Typeface.ITALIC)
+            SpannableString.setSpan(styleSpan,binding.editNotes.selectionStart,
+                binding.editNotes.selectionEnd,0)
+            SpannableString2.setSpan(styleSpan,binding.editTitle.selectionStart,
+                binding.editTitle.selectionEnd,0)
+            binding.editNotes.text=SpannableString
+            binding.editTitle.text=SpannableString2
+        }
+
 
         return binding.root
     }

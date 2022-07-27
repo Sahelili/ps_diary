@@ -16,6 +16,10 @@
         "source": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-main-55:\\layout\\fragment_homefragment.xml"
     },
     {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-mergeDebugResources-52:\\layout\\background_colour.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-main-55:\\layout\\background_colour.xml"
+    },
+    {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-mergeDebugResources-52:\\layout\\activity_splash_screen.xml",
         "source": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-main-55:\\layout\\activity_splash_screen.xml"
     },

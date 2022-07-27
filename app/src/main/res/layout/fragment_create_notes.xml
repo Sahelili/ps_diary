@@ -14,55 +14,6 @@
         android:orientation="vertical">
 
 
-
-
-        <TextView
-            android:id="@+id/dateButton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/edit_shape_diary"
-            android:drawableStart="@drawable/calender"
-            android:padding="10sp"/>
-
-        <EditText
-            android:id="@+id/editTitle"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:background="@drawable/edit_shape_diary"
-            android:hint="Title....."
-            android:textColorHint="@color/grey1"
-            android:maxLines="1"
-            android:textSize="26dp"
-            android:padding="10dp"/>
-
-        <EditText
-            android:id="@+id/editNotes"
-            android:layout_width="match_parent"
-            android:layout_height="360dp"
-            android:layout_marginTop="8dp"
-            android:background="@drawable/edit_shape_diary"
-            android:gravity="start"
-            android:hint="So How was your day today....."
-            android:inputType="textMultiLine"
-            android:padding="10dp"
-            android:textColorHint="@color/grey1"
-            android:textSize="23dp" />
-
-        <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/BtnSaveNotes"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="right"
-            android:layout_marginTop="5dp"
-            android:layout_marginRight="15dp"
-            android:backgroundTint="#D6E0E1"
-            android:focusableInTouchMode="false"
-            android:src="@drawable/ic_baseline_done_24"
-            app:backgroundTint="@color/purple_700"
-            app:fabSize="auto"
-            app:maxImageSize="35dp" />
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -71,13 +22,13 @@
             android:weightSum="5">
 
             <ImageButton
-                android:id="@+id/size"
+                android:id="@+id/italic"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="6dp"
                 android:backgroundTint="#71DEEC"
                 android:layout_weight="1"
-                android:src="@drawable/size" />
+                android:src="@drawable/italics" />
             <ImageButton
                 android:id="@+id/bold"
                 android:layout_width="wrap_content"
@@ -114,6 +65,56 @@
                 android:src="@drawable/link" />
 
         </LinearLayout>
+
+        <TextView
+            android:id="@+id/dateButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_shape_diary"
+            android:drawableStart="@drawable/calender"
+            android:padding="10sp"/>
+
+        <EditText
+            android:id="@+id/editTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edit_shape_diary"
+            android:hint="Title....."
+            android:textColorHint="@color/grey1"
+            android:maxLines="1"
+            android:textSize="26dp"
+            android:padding="10dp"/>
+
+
+        <EditText
+            android:id="@+id/editNotes"
+            android:layout_width="match_parent"
+            android:layout_height="322dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edit_shape_diary"
+            android:gravity="start"
+            android:hint="So How was your day today....."
+            android:inputType="textMultiLine"
+            android:padding="10dp"
+            android:textColorHint="@color/grey1"
+            android:textSize="23dp" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/BtnSaveNotes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="15dp"
+            android:backgroundTint="#D6E0E1"
+            android:focusableInTouchMode="false"
+            android:src="@drawable/ic_baseline_done_24"
+            app:backgroundTint="@color/purple_700"
+            app:fabSize="auto"
+            app:maxImageSize="35dp" />
+
+
 
 
     </LinearLayout>

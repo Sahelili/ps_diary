@@ -24,20 +24,12 @@
         "source": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-pngs-48:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-merged_res-53:\\drawable-xxxhdpi_new_user.xml.flat",
-        "source": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-main-55:\\drawable-xxxhdpi\\new_user.xml"
-    },
-    {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-merged_res-53:\\layout_dialogue.xml.flat",
         "source": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-main-55:\\layout\\dialogue.xml"
     },
     {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-merged_res-53:\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-main-55:\\drawable\\ic_launcher_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-merged_res-53:\\font_font.xml.flat",
-        "source": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-main-55:\\font\\font.xml"
     },
     {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-merged_res-53:\\mipmap-xhdpi_ic_launcher.webp.flat",
@@ -52,24 +44,24 @@
         "source": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-main-55:\\drawable\\colour.xml"
     },
     {
-        "merged": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-merged_res-53:\\drawable_yes_button.xml.flat",
-        "source": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-main-55:\\drawable\\yes_button.xml"
-    },
-    {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-merged_res-53:\\mipmap-hdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-main-55:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-merged_res-53:\\drawable_edit_shape_diary.xml.flat",
-        "source": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-main-55:\\drawable\\edit_shape_diary.xml"
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-merged_res-53:\\drawable_yes_button.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-main-55:\\drawable\\yes_button.xml"
+    },
+    {
+        "merged": "com.example.diaryapp-merged_res-53:/drawable_bold.xml.flat",
+        "source": "com.example.diaryapp-main-55:/drawable/bold.xml"
     },
     {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-merged_res-53:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-main-55:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-merged_res-53:\\drawable_ic_font_style.xml.flat",
-        "source": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-main-55:\\drawable\\ic_font_style.xml"
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-merged_res-53:\\drawable_edit_shape_diary.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-main-55:\\drawable\\edit_shape_diary.xml"
     },
     {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-merged_res-53:\\drawable_del_notes.xml.flat",
@@ -112,8 +104,8 @@
         "source": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-main-55:\\navigation\\nav_graph.xml"
     },
     {
-        "merged": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-merged_res-53:\\font_italic.ttf.flat",
-        "source": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-main-55:\\font\\italic.ttf"
+        "merged": "com.example.diaryapp-merged_res-53:/drawable_ic_image.xml.flat",
+        "source": "com.example.diaryapp-main-55:/drawable/ic_image.xml"
     },
     {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-merged_res-53:\\drawable_ic_image.xml.flat",
@@ -122,6 +114,10 @@
     {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-merged_res-53:\\drawable_search_notes.xml.flat",
         "source": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-main-55:\\drawable\\search_notes.xml"
+    },
+    {
+        "merged": "com.example.diaryapp-merged_res-53:/drawable_link.xml.flat",
+        "source": "com.example.diaryapp-main-55:/drawable/link.xml"
     },
     {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-merged_res-53:\\layout_fragment_create_notes.xml.flat",
@@ -160,10 +156,6 @@
         "source": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-main-55:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-merged_res-53:\\drawable_ic_font_color.xml.flat",
-        "source": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-main-55:\\drawable\\ic_font_color.xml"
-    },
-    {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-merged_res-53:\\mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-main-55:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
@@ -172,20 +164,20 @@
         "source": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-main-55:\\drawable\\size.xml"
     },
     {
-        "merged": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-merged_res-53:\\font_bold.ttf.flat",
-        "source": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-main-55:\\font\\bold.ttf"
-    },
-    {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-merged_res-53:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-main-55:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-merged_res-53:\\drawable_delete.xml.flat",
-        "source": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-main-55:\\drawable\\delete.xml"
+        "merged": "com.example.diaryapp-merged_res-53:/drawable_colour.xml.flat",
+        "source": "com.example.diaryapp-main-55:/drawable/colour.xml"
     },
     {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-merged_res-53:\\drawable_edit_shape_button.xml.flat",
         "source": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-main-55:\\drawable\\edit_shape_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-merged_res-53:\\layout_background_colour.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-main-55:\\layout\\background_colour.xml"
     },
     {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-merged_res-53:\\drawable_edit_shape.xml.flat",
@@ -206,6 +198,10 @@
     {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-merged_res-53:\\drawable_no_button.xml.flat",
         "source": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-main-55:\\drawable\\no_button.xml"
+    },
+    {
+        "merged": "com.example.diaryapp-merged_res-53:/drawable_italics.xml.flat",
+        "source": "com.example.diaryapp-main-55:/drawable/italics.xml"
     },
     {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\7.3.3\\com.example.diaryapp-merged_res-53:\\drawable_ic_baseline_add_24.xml.flat",

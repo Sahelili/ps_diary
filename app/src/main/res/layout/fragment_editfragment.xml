@@ -12,71 +12,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-
-
-        <TextView
-            android:id="@+id/dateButton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/edit_shape_diary"
-            android:drawableStart="@drawable/calender"
-            android:padding="10sp"/>
-
-    <EditText
-        android:id="@+id/editTitle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:background="@drawable/edit_shape_diary"
-        android:hint="Title....."
-        android:textColorHint="@color/grey1"
-        android:maxLines="1"
-        android:textSize="26dp"
-        android:padding="10dp"/>
-
-        <EditText
-            android:id="@+id/editNotes"
-            android:layout_width="match_parent"
-            android:layout_height="361dp"
-            android:layout_marginTop="8dp"
-            android:background="@drawable/edit_shape_diary"
-            android:gravity="start"
-            android:hint="So How was your day today....."
-            android:inputType="textMultiLine"
-            android:padding="10dp"
-            android:textColorHint="@color/grey1"
-            android:textSize="23dp" />
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginRight="4dp"
-        android:gravity="center"
-        android:orientation="horizontal"
-        android:weightSum="2">
-
-<!--        <com.google.android.material.floatingactionbutton.FloatingActionButton-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="46dp"-->
-<!--            android:layout_gravity="center"-->
-<!--            android:layout_marginTop="5dp"-->
-<!--            android:layout_marginRight="15dp"-->
-<!--            android:backgroundTint="#DC4040"-->
-<!--            android:focusableInTouchMode="false"-->
-<!--            android:src="@drawable/delete"-->
-<!--            app:maxImageSize="30dp" />-->
-
-        <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/btnEditSaveNotes"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="5dp"
-            android:layout_marginRight="15dp"
-            android:backgroundTint="#D6E0E1"
-            android:focusableInTouchMode="false"
-            android:src="@drawable/ic_baseline_done_24"
-            app:maxImageSize="30dp" />
-    </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -85,15 +20,15 @@
             android:weightSum="5">
 
             <ImageButton
-                android:id="@+id/fontButton"
+                android:id="@+id/italic"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="6dp"
                 android:backgroundTint="#71DEEC"
                 android:layout_weight="1"
-                android:src="@drawable/size" />
+                android:src="@drawable/italics" />
             <ImageButton
-                android:id="@+id/imageBUtton1"
+                android:id="@+id/bold"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#71DEEC"
@@ -119,7 +54,7 @@
                 android:layout_weight="1"
                 android:src="@drawable/ic_image" />
             <ImageButton
-                android:id="@+id/imageButton4"
+                android:id="@+id/link"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="6dp"
@@ -128,6 +63,61 @@
                 android:src="@drawable/link" />
 
         </LinearLayout>
+
+        <TextView
+            android:id="@+id/dateButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_shape_diary"
+            android:drawableStart="@drawable/calender"
+            android:padding="10sp"/>
+
+    <EditText
+        android:id="@+id/editTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/edit_shape_diary"
+        android:hint="Title....."
+        android:textColorHint="@color/grey1"
+        android:maxLines="1"
+        android:textSize="26dp"
+        android:padding="10dp"/>
+
+
+        <EditText
+            android:id="@+id/editNotes"
+            android:layout_width="match_parent"
+            android:layout_height="361dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edit_shape_diary"
+            android:gravity="start"
+            android:hint="So How was your day today....."
+            android:inputType="textMultiLine"
+            android:padding="10dp"
+            android:textColorHint="@color/grey1"
+            android:textSize="23dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="4dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btnEditSaveNotes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="15dp"
+            android:backgroundTint="#D6E0E1"
+            android:focusableInTouchMode="false"
+            android:src="@drawable/ic_baseline_done_24"
+            app:maxImageSize="30dp" />
+    </LinearLayout>
+
     </LinearLayout>
 
 </FrameLayout>

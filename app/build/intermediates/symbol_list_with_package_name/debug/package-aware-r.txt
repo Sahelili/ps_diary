@@ -2567,8 +2567,6 @@ drawable ic_baseline_add_24
 drawable ic_baseline_arrow_back_24
 drawable ic_baseline_done_24
 drawable ic_clock_black_24dp
-drawable ic_font_color
-drawable ic_font_style
 drawable ic_image
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -2581,6 +2579,7 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable image
+drawable italics
 drawable link
 drawable login
 drawable login_shape
@@ -2614,7 +2613,6 @@ drawable mtrl_popupmenu_background
 drawable mtrl_popupmenu_background_overlay
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
-drawable new_user
 drawable no_button
 drawable notification_action_background
 drawable notification_bg
@@ -2737,6 +2735,7 @@ id baseline
 id beginOnFirstDraw
 id beginning
 id bestChoice
+id black
 id blocking
 id bold
 id bottom
@@ -2779,6 +2778,7 @@ id clip_vertical
 id clockwise
 id closest
 id collapseActionView
+id color
 id colorButton
 id compress
 id confirm_button
@@ -2863,7 +2863,6 @@ id fitXY
 id fixed
 id flip
 id floating
-id fontButton
 id forever
 id fragmentContainerView
 id fragment_container_view_tag
@@ -2892,11 +2891,8 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
-id imageBUtton1
 id imageButton
-id imageButton4
 id imageView
-id imgNote
 id immediateStop
 id included
 id info
@@ -3018,15 +3014,18 @@ id pathRelative
 id peekHeight
 id percent
 id pin
+id pink
 id position
 id postLayout
 id progressBar
 id progress_circular
 id progress_horizontal
+id purple
 id radio
 id ratio
 id rcvAllNotes
 id rectangles
+id red
 id reverseSawtooth
 id right
 id rightToLeft
@@ -3066,7 +3065,6 @@ id showCustom
 id showHome
 id showTitle
 id sin
-id size
 id skipCollapsed
 id skipped
 id slide
@@ -3168,6 +3166,7 @@ id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
 id west
+id white
 id wide
 id withText
 id withinBounds
@@ -3176,6 +3175,7 @@ id wrap_content
 id wrap_content_constrained
 id x_left
 id x_right
+id yellow
 id zero_corner_chip
 integer abc_config_activityDefaultDur
 integer abc_config_activityShortDur
@@ -3273,6 +3273,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
 layout activity_splash_screen
+layout background_colour
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog

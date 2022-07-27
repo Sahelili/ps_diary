@@ -7,7 +7,6 @@ import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.FrameLayout;
 import android.widget.ImageButton;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -25,6 +24,9 @@ public final class FragmentEditfragmentBinding implements ViewBinding {
   private final FrameLayout rootView;
 
   @NonNull
+  public final ImageButton bold;
+
+  @NonNull
   public final FloatingActionButton btnEditSaveNotes;
 
   @NonNull
@@ -40,41 +42,33 @@ public final class FragmentEditfragmentBinding implements ViewBinding {
   public final EditText editTitle;
 
   @NonNull
-  public final ImageButton fontButton;
-
-  @NonNull
-  public final ImageButton imageBUtton1;
-
-  @NonNull
   public final ImageButton imageButton;
 
   @NonNull
-  public final ImageButton imageButton4;
-
-  @NonNull
-  public final ImageView imgNote;
+  public final ImageButton italic;
 
   @NonNull
   public final LinearLayout linearLayout;
 
-  private FragmentEditfragmentBinding(@NonNull FrameLayout rootView,
+  @NonNull
+  public final ImageButton link;
+
+  private FragmentEditfragmentBinding(@NonNull FrameLayout rootView, @NonNull ImageButton bold,
       @NonNull FloatingActionButton btnEditSaveNotes, @NonNull ImageButton colorButton,
       @NonNull TextView dateButton, @NonNull EditText editNotes, @NonNull EditText editTitle,
-      @NonNull ImageButton fontButton, @NonNull ImageButton imageBUtton1,
-      @NonNull ImageButton imageButton, @NonNull ImageButton imageButton4,
-      @NonNull ImageView imgNote, @NonNull LinearLayout linearLayout) {
+      @NonNull ImageButton imageButton, @NonNull ImageButton italic,
+      @NonNull LinearLayout linearLayout, @NonNull ImageButton link) {
     this.rootView = rootView;
+    this.bold = bold;
     this.btnEditSaveNotes = btnEditSaveNotes;
     this.colorButton = colorButton;
     this.dateButton = dateButton;
     this.editNotes = editNotes;
     this.editTitle = editTitle;
-    this.fontButton = fontButton;
-    this.imageBUtton1 = imageBUtton1;
     this.imageButton = imageButton;
-    this.imageButton4 = imageButton4;
-    this.imgNote = imgNote;
+    this.italic = italic;
     this.linearLayout = linearLayout;
+    this.link = link;
   }
 
   @Override
@@ -104,6 +98,12 @@ public final class FragmentEditfragmentBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.bold;
+      ImageButton bold = ViewBindings.findChildViewById(rootView, id);
+      if (bold == null) {
+        break missingId;
+      }
+
       id = R.id.btnEditSaveNotes;
       FloatingActionButton btnEditSaveNotes = ViewBindings.findChildViewById(rootView, id);
       if (btnEditSaveNotes == null) {
@@ -134,33 +134,15 @@ public final class FragmentEditfragmentBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.fontButton;
-      ImageButton fontButton = ViewBindings.findChildViewById(rootView, id);
-      if (fontButton == null) {
-        break missingId;
-      }
-
-      id = R.id.imageBUtton1;
-      ImageButton imageBUtton1 = ViewBindings.findChildViewById(rootView, id);
-      if (imageBUtton1 == null) {
-        break missingId;
-      }
-
       id = R.id.imageButton;
       ImageButton imageButton = ViewBindings.findChildViewById(rootView, id);
       if (imageButton == null) {
         break missingId;
       }
 
-      id = R.id.imageButton4;
-      ImageButton imageButton4 = ViewBindings.findChildViewById(rootView, id);
-      if (imageButton4 == null) {
-        break missingId;
-      }
-
-      id = R.id.imgNote;
-      ImageView imgNote = ViewBindings.findChildViewById(rootView, id);
-      if (imgNote == null) {
+      id = R.id.italic;
+      ImageButton italic = ViewBindings.findChildViewById(rootView, id);
+      if (italic == null) {
         break missingId;
       }
 
@@ -170,9 +152,14 @@ public final class FragmentEditfragmentBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentEditfragmentBinding((FrameLayout) rootView, btnEditSaveNotes, colorButton,
-          dateButton, editNotes, editTitle, fontButton, imageBUtton1, imageButton, imageButton4,
-          imgNote, linearLayout);
+      id = R.id.link;
+      ImageButton link = ViewBindings.findChildViewById(rootView, id);
+      if (link == null) {
+        break missingId;
+      }
+
+      return new FragmentEditfragmentBinding((FrameLayout) rootView, bold, btnEditSaveNotes,
+          colorButton, dateButton, editNotes, editTitle, imageButton, italic, linearLayout, link);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
